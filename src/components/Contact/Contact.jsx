@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Card, CardHeader, CardTitle, CardContent } from "../ui/card";
-import { FaEnvelope, FaFacebook, FaGithub } from 'react-icons/fa'; // Import icons for social links
+import { FaEnvelope, FaFacebook, FaGithub } from 'react-icons/fa';
 
 const Contact = () => {
   return (
@@ -22,6 +22,9 @@ const Contact = () => {
           <p className="text-muted-foreground mb-6">
             Whether you're looking to build something from scratch, need advice on a current project, or simply want to chat about the latest trends in technology, I would love to connect. Feel free to reach out, and let's bring your ideas to life together!
           </p>
+          <p className="text-lg md:text-xl mb-4 text-blue-900">
+            Want a demo of my previous projects? Feel free to message me directly below!
+          </p>
 
           <div className="flex justify-center gap-6">
             <a
@@ -31,7 +34,6 @@ const Contact = () => {
               <FaEnvelope />
             </a>
 
-            {/* Facebook Link */}
             <a
               href="https://www.facebook.com/JoshDevIlokano/"
               target="_blank"
@@ -40,7 +42,6 @@ const Contact = () => {
             >
               <FaFacebook />
             </a>
-            {/* GitHub Link */}
             <a
               href="https://github.com/joshdevkit"
               target="_blank"
